@@ -20,7 +20,7 @@
       "host": "100.66.230.83",
       "ref": "origin/master",
       "repo": "git@github.com:738326776zby/pm2-deploy-test.git",
-      "path": "/www/test",
+      "path": "/www",
       "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
       "post-deploy" : "pm2 startOrRestart ecosystem.json --env dev",
       "env": {
