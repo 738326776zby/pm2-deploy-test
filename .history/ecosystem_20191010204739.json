@@ -15,7 +15,8 @@
   ],
   "deploy": {
     "production": {
-      "user": "738326776@qq.com",
+      "user": "zhangby",
+      "port": "22",
       "host": "100.66.230.83",
       "ref": "origin/master",
       "repo": "git@github.com:738326776zby/pm2-deploy-test.git",
